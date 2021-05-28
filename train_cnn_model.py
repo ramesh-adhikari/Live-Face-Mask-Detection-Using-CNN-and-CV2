@@ -10,6 +10,7 @@ from keras.callbacks import TensorBoard, ModelCheckpoint
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import f1_score
 from sklearn.utils import shuffle
+import matplotlib.pyplot as plt
 
 
 
@@ -79,3 +80,21 @@ history = model.fit_generator(train_generator,
                               epochs=10,
                               validation_data=validation_generator,
                               callbacks=[checkpoint])
+
+plt.figure(figsize=(14,5))
+plt.subplot(1,2,2)
+plt.plot(hist.history['acc'])
+plt.plot(hist.history['val_acc'])
+plt.title('Model Accuracy')
+plt.xlabel('Epochs')
+plt.ylabel('Accuracy')
+plt.legend(['train', 'test'], loc='upper left')
+
+plt.subplot(1,2,1)
+plt.plot(hist.history['loss'])
+plt.plot(hist.history['val_loss'])
+plt.title('model Loss')
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
