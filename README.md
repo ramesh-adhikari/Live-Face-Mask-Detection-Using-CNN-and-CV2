@@ -1,7 +1,7 @@
 # Live Face Mask Detection Using CNN and CV2
 
 - The corona virus Outbreak has created various changes in the lifestyle of everyone around the world. 
-- In those changes wearing a mask has been very vital to every individual and same has been announced by government and WHO. 
+- In those changes wearing a mask has been very vital to every individual and the same has been announced by the government and WHO. 
 - Detection of people who are not wearing masks is a challenge due to the large number of populations. 
 - This project can be used in schools, hospitals, banks, airports etc as a digitalized scanning tool. 
 
@@ -25,7 +25,9 @@
 1. Clone or download the zip file
 2. go to face-mask directory
 3. Then run train the cnn model script by: python3 train_cnn_model.py
-![image](https://raw.githubusercontent.com/adhikarir/Live-Face-Mask-Detection-Using-CNN-and-CV2/master/training_model_accuracy_and_loss.png)
+![image](https://raw.githubusercontent.com/adhikarir/Live-Face-Mask-Detection-Using-CNN-and-CV2/master/output/training_model_accuracy_and_loss.png)
 fig: training CNN model
+![image](https://raw.githubusercontent.com/adhikarir/Live-Face-Mask-Detection-Using-CNN-and-CV2/master/output/face_mask_training_model_accuracy_loss.png)
+Fig: Model Accuracy and loss
 3. After completion of training the cnn model run: python3 test_with_live_video.py
-
+![image](https://github.com/adhikarir/Live-Face-Mask-Detection-Using-CNN-and-CV2/blob/master/ezgif.com-gif-maker.gif)
