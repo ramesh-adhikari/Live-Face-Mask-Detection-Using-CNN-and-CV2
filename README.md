@@ -24,10 +24,10 @@
 ## To run this project
 1. Clone or download the zip file
 2. go to face-mask directory
-3. Then run train the cnn model script by: python3 train_cnn_model.py
+3. Then run train the cnn model script by: **python3 train_cnn_model.py**
 ![image](https://raw.githubusercontent.com/adhikarir/Live-Face-Mask-Detection-Using-CNN-and-CV2/master/training_model_accuracy_and_loss.png)
 fig: training CNN model
 ![image](https://raw.githubusercontent.com/adhikarir/Live-Face-Mask-Detection-Using-CNN-and-CV2/master/face_mask_training_model_accuracy_loss.png)
 Fig: Model Accuracy and loss
-3. After completion of training the cnn model run: python3 test_with_live_video.py
+3. After completion of training the cnn model run: **python3 test_with_live_video.py**
 ![image](https://github.com/adhikarir/Live-Face-Mask-Detection-Using-CNN-and-CV2/blob/master/ezgif.com-gif-maker.gif)
